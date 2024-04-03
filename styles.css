@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.dark-mode {
+    background-color: #333333;
+    color: #f85311;
+}
+
+.a {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.b{
+    background-color: #eba8a8;
+    box-shadow: 5px 5px 10px #bfbfbf,
+                -5px -5px 10px #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.three-d {
+    transform: rotateX(20deg) rotateY(20deg);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.bold-typography {
+        background: linear-gradient(to left, orange 0%, green 100%);
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 2rem;
+    }
+
+.vibrant-color {
+    background: linear-gradient(to left, orange 0%, red 100%);
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.glass-container{
+    background: url('image.jpg') no-repeat center center/cover;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.illustration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    text-align: center;
+}
+
+h1, p {
+    color: #fff;
+}
+footer {
+    background-color: #444444;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+.dark-mode-container {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 50px;
+}
+
+.dark-mode-container h1 {
+    font-size: 36px;
+}
+
+.dark-mode-container p {
+    font-size: 18px;
+}
+
+.toggle-dark-mode {
+    background-color: #fff;
+    color: #333; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
